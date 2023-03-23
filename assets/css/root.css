@@ -1,5 +1,5 @@
 :root {
-    
+
     /* Font size */
     --fs-84: 84px;
     --fs-56: 56px;
@@ -16,7 +16,45 @@
     --fs-16: 16px;
     --fs-14: 14px;
     --fs-12: 12px;
+
+    --color-orange: #F66F4D;
+    --color-bg-orange: #F66F4D;
+    --color-grey: #5B5F62;
+    --color-lightyellow: #FAF8ED;
+    --color-lightblack: #2D3134;
+    --color-black: #2D3134;
+    --color-lightgrey: #9498A4;
+
 }
+
+.orange {
+    color: var(--color-orange);
+}
+
+.bg-orange {
+    background-color: var(--color-bg-orange);
+}
+
+.grey {
+    color: var(--color-grey) !important;
+}
+
+.lightyellow {
+    background-color: var(--color-lightyellow) !important;
+}
+
+.lightblack {
+    background-color: var(--color-lightblack) !important;
+}
+
+.black {
+    color: var(--color-black) !important;
+}
+
+.lightgrey {
+    background-color: var(--color-lightgrey) !important;
+}
+
 
 .fw_700 {
     font-weight: 700;

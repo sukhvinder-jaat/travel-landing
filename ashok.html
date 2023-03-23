@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/root.css">
+    <link rel="stylesheet" href="/assets/css/ashok.css">
+</head>
+
+<body>
+    <nav class="pt-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center ">
+                    <img class="" src="/assets/img/png/Union.png" alt="logo">
+                    <span class=" ps-1 ">Salty</span>
+                </div>
+
+                <ul class="d-flex list-unstyled mb-0" id="show">
+                    <li><a href="#" class=" position-relative hover_line">Home</a>
+                    </li>
+                    <li class="ps-5"><a href="#" class="position-relative hover_line">About us</a>
+                    </li>
+                    <li class="ps-5"><a href="#" class=" position-relative hover_line">Destinations</a>
+                    </li>
+                    <li class="ps-5"><a href="#" class=" position-relative hover_line">Tours</a>
+                    </li>
+                    <li class="ps-5"><a href="#" class=" position-relative hover_line">Blog</a>
+                    </li>
+                    <li><a href="#" class=" nav_button d-xl-none ">Sign
+                            Up</a>
+                    </li>
+                </ul>
+                <ul class="d-flex d-xl-flex d-none list-unstyled mb-0">
+
+                    <li><a href="#" class="fw-normal ff_Rubik fs_sm grey pink nav_button">Sign Up</a></li>
+                </ul>
+                <span class="d-flex flex-column d-xl-none" onclick="navshow()">
+                    <span class="menuicon"></span>
+                    <span class="menuicon"></span>
+                    <span class="menuicon"></span>
+                </span>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script>
+        function navshow() {
+            document.getElementById("show").classList.toggle("left")
+            document.body.classList.toggle("overflowhiden")
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+:root {
+    
+    /* Font size */
+    --fs-84: 84px;
+    --fs-56: 56px;
+    --fs-46: 46px;
+    --fs-40: 40px;
+    --fs-30: 30px;
+    --fs-28: 28px;
+    --fs-26: 26px;
+    --fs-24: 24px;
+    --fs-21: 21px;
+    --fs-20: 20px;
+    --fs-19: 19px;
+    --fs-18: 18px;
+    --fs-16: 16px;
+    --fs-14: 14px;
+    --fs-12: 12px;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+.fs_84 {
+    font-size: var(--fs-84);
+}
+
+.fs_56 {
+    font-size: var(--fs-56);
+}
+
+.fs_46 {
+    font-size: var(--fs-46);
+}
+
+.fs_40 {
+    font-size: var(--fs-40);
+}
+
+.fs_30 {
+    font-size: var(--fs-30);
+}
+
+.fs_28 {
+    font-size: var(--fs-28);
+}
+
+.fs_26 {
+    font-size: var(--fs-26);
+}
+
+.fs_24 {
+    font-size: var(--fs-24);
+}
+
+.fs_21 {
+    font-size: var(--fs-21);
+}
+
+.fs_20 {
+    font-size: var(--fs-20);
+}
+
+.fs_19 {
+    font-size: var(--fs-19);
+}
+
+.fs_18 {
+    font-size: var(--fs-18);
+}
+
+.fs_16 {
+    font-size: var(--fs-16);
+}
+
+.fs_14 {
+    font-size: var(--fs-14);
+}
+
+.fs_12 {
+    font-size: var(--fs-12);
+}

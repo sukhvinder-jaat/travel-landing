@@ -29,6 +29,10 @@
 
 }
 
+.bg_white {
+    background-color: var(--color-white);
+}
+
 .nevi {
     color: var(--color-nevi) !important;
 }
@@ -67,6 +71,10 @@
 
 .lightgrey {
     background-color: var(--color-lightgrey) !important;
+}
+
+.clr_lightgrey {
+    color: var(--color-lightgrey) !important;
 }
 
 
@@ -157,4 +165,103 @@
 
 .ff_Poppins {
     font-family: 'Poppins', sans-serif;
+}
+
+.nav_button {
+    border: 1.4px solid #F66F4D;
+    border-radius: 27px;
+    padding: 10px 30px;
+}
+
+
+@media (max-width:1200px) {
+    :root {
+
+        /* Font size */
+        --fs-84: 64px;
+        --fs-56: 56px;
+        --fs-46: 46px;
+        --fs-40: 40px;
+        --fs-30: 30px;
+        --fs-28: 28px;
+        --fs-26: 26px;
+        --fs-24: 24px;
+        --fs-21: 21px;
+        --fs-20: 20px;
+        --fs-19: 19px;
+        --fs-18: 18px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+
+        /* Font size */
+        --fs-84: 54px;
+        --fs-56: 56px;
+        --fs-46: 46px;
+        --fs-40: 40px;
+        --fs-30: 30px;
+        --fs-28: 28px;
+        --fs-26: 26px;
+        --fs-24: 24px;
+        --fs-21: 21px;
+        --fs-20: 20px;
+        --fs-19: 19px;
+        --fs-18: 18px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+
+        /* Font size */
+        --fs-84: 44px;
+        --fs-56: 56px;
+        --fs-46: 46px;
+        --fs-40: 40px;
+        --fs-30: 30px;
+        --fs-28: 28px;
+        --fs-26: 26px;
+        --fs-24: 24px;
+        --fs-21: 21px;
+        --fs-20: 20px;
+        --fs-19: 19px;
+        --fs-18: 18px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+
+    }
+}
+
+@media (max-width:400px) {
+    :root {
+
+        /* Font size */
+        --fs-84: 34px;
+        --fs-56: 56px;
+        --fs-46: 46px;
+        --fs-40: 40px;
+        --fs-30: 30px;
+        --fs-28: 28px;
+        --fs-26: 26px;
+        --fs-24: 24px;
+        --fs-21: 21px;
+        --fs-20: 20px;
+        --fs-19: 19px;
+        --fs-18: 18px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+
+    }
 }

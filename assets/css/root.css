@@ -24,9 +24,12 @@
     --color-lightblack: #2D3134;
     --color-black: #2D3134;
     --color-lightgrey: #9498A4;
+    --color-white: #FDFEFF;;
 
 }
-
+.bg_white{
+    background-color:var(--color-white);
+}
 .orange {
     color: var(--color-orange);
 }
@@ -45,6 +48,9 @@
 
 .lightblack {
     background-color: var(--color-lightblack) !important;
+}
+.clr_lightblack {
+    color: var(--color-lightblack) !important;
 }
 
 .black {

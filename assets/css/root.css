@@ -17,11 +17,12 @@
     --fs-14: 14px;
     --fs-12: 12px;
 
+    --color-nevi: #2E476B;
     --color-orange: #F66F4D;
     --color-bg-orange: #F66F4D;
     --color-grey: #5B5F62;
     --color-lightyellow: #FAF8ED;
-    --color-lightblack: #2D3134;
+    --color-bg_lightblack: #2D3134;
     --color-black: #2D3134;
     --color-lightgrey: #9498A4;
     --color-white: #FDFEFF;
@@ -33,8 +34,16 @@
     background-color: var(--color-white);
 }
 
+.nevi {
+    color: var(--color-nevi) !important;
+}
+
+.bg_white {
+    background-color: var(--color-white);
+}
+
 .orange {
-    color: var(--color-orange);
+    color: var(--color-orange) !important;
 }
 
 .bg-orange {
@@ -49,8 +58,8 @@
     background-color: var(--color-lightyellow) !important;
 }
 
-.lightblack {
-    background-color: var(--color-lightblack) !important;
+.bg_lightblack {
+    background-color: var(--color-bg_lightblack) !important;
 }
 
 .clr_lightblack {
@@ -188,6 +197,7 @@
 
     }
 }
+
 @media (max-width:768px) {
     :root {
 
@@ -210,6 +220,7 @@
 
     }
 }
+
 @media (max-width:576px) {
     :root {
 
@@ -232,6 +243,7 @@
 
     }
 }
+
 @media (max-width:400px) {
     :root {
 

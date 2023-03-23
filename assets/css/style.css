@@ -61,8 +61,8 @@
     }
 }
 @media (min-width:992px) {
-    .min-vh-lg-80{
-        min-height: 80vh;
+    .min-vh-lg-50{
+        min-height: 50vh;
     }
 }
 @media (max-width:576px) {

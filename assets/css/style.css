@@ -51,8 +51,6 @@
     transition: all 1s linear;
 }
 
-
-
 @media (max-width:1200px) {
     .discover_height {
         line-height: 63px;

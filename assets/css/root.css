@@ -25,20 +25,18 @@
     --color-bg_lightblack: #2D3134;
     --color-black: #2D3134;
     --color-lightgrey: #9498A4;
-    --color-white: #FDFEFF;;
+    --color-white: #FDFEFF;
 
 }
-<<<<<<< HEAD
 
 .nevi {
     color: var(--color-nevi) !important;
 }
 
-=======
-.bg_white{
-    background-color:var(--color-white);
+.bg_white {
+    background-color: var(--color-white);
 }
->>>>>>> efc17fe7ed98090b8e6ebe43c99eb378f48fbd0e
+
 .orange {
     color: var(--color-orange) !important;
 }
@@ -58,6 +56,7 @@
 .bg_lightblack {
     background-color: var(--color-bg_lightblack) !important;
 }
+
 .clr_lightblack {
     color: var(--color-lightblack) !important;
 }

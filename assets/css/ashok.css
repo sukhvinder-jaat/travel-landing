@@ -45,8 +45,55 @@
 }
 
 .nav_button:hover {
-    background: #ffffff !important;
+    background: black;
     box-shadow: 0px 22px 34px -9px rgba(245, 56, 56, 0.35);
+
+}
+
+.max_w_410 {
+    max-width: 410px;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0 !important;
+}
+
+.slider_btn {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #2D3134;
+    border-radius: 50%;
+    background: var(--color-khakhi);
+}
+
+.slider_btn {
+    transition: 0.6s ease-in-out;
+}
+
+.slider_btn:hover {
+    background-color: #2D3134;
+}
+
+.slider_btn:hover path {
+    stroke: #ffff;
+
+}
+
+
+
+.slider_btn_arrow {
+    line-height: 0.5;
+    color: #2D3134;
+}
+
+@media (max-width:600px) {
+    .max_w_75_600 {
+        width: 75% !important;
+    }
 }
 
 @media (min-width:1200px) {

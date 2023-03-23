@@ -47,6 +47,9 @@
     display: none;
 }
 
+.effect {
+    transition: all 1s linear;
+}
 
 
 
@@ -55,16 +58,19 @@
         line-height: 63px;
     }
 }
+
 @media (max-width:992px) {
     .discover_height {
         line-height: 63px;
     }
 }
+
 @media (min-width:992px) {
-    .min-vh-lg-50{
+    .min-vh-lg-50 {
         min-height: 50vh;
     }
 }
+
 @media (max-width:576px) {
     .discover_height {
         line-height: 43px;

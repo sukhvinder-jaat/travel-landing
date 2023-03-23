@@ -137,3 +137,22 @@
 .fs_12 {
     font-size: var(--fs-12);
 }
+
+/* font-family*/
+.ff_Inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.ff_Sen {
+    font-family: 'Sen', sans-serif;
+}
+
+.ff_Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav_button {
+    border: 1.4px solid #F66F4D;
+    border-radius: 27px;
+    padding: 10px 30px;
+}

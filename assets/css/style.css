@@ -6,3 +6,67 @@
     box-shadow: 0px 28px 56px -6px rgba(246, 111, 77, 0.05);
     border-radius: 38px;
 }
+
+.line {
+    width: 47px;
+    height: 0px;
+    border: 1px solid #EAEAEB;
+    transform: rotate(90deg);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search {
+    width: 54px;
+    height: 54px;
+    background: #F66F4D;
+    border-radius: 31px;
+    border: 1.5px solid #F66F4D;
+}
+
+.search:hover span svg path {
+    stroke: #F66F4D !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.search:hover {
+    background: #FDFEFF;
+}
+
+.mx_490 {
+    max-width: 490px;
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+
+
+
+@media (max-width:1200px) {
+    .discover_height {
+        line-height: 63px;
+    }
+}
+@media (max-width:992px) {
+    .discover_height {
+        line-height: 63px;
+    }
+}
+@media (min-width:992px) {
+    .min-vh-lg-80{
+        min-height: 80vh;
+    }
+}
+@media (max-width:576px) {
+    .discover_height {
+        line-height: 43px;
+    }
+}

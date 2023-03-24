@@ -69,6 +69,102 @@ button {
     border-radius: 14px;
 }
 
+.d_templete {
+    grid-gap: 20px;
+    grid-template-columns: auto;
+}
+
+.img_1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.image_2 {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    object-fit: cover;
+}
+
+.img_3 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.img_4 {
+    grid-row: 1/2;
+    grid-column: 3/5;
+}
+
+.img_5 {
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.img_6 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.bnt_3 {
+    top: 25px;
+    border-radius: 12px;
+    padding: 2px 10px;
+    background-color: #fff;
+    left: 25px;
+}
+
+.Vientam {
+    bottom: 20px;
+    left: 25px;
+}
+
+.bg_black_hover:hover {
+    background-color: #000;
+    color: #fff !important;
+}
+
+.show_hover:hover .show {
+    opacity: 1 !important;
+}
+
+.bnt_3:hover {
+    background-color: #000;
+    color: #FDFEFF !important;
+}
+
+.London_btn:hover {
+    background-color: #000;
+    color: #FDFEFF !important;
+}
+
+.London_btn {
+    border: 1px solid #2D3134;
+    border-radius: 46px;
+    padding: 8px 24px;
+}
+
+.Singapore_btn:hover {
+    background-color: #000;
+    color: #FDFEFF !important;
+}
+
+.Singapore_btn {
+    border: 1px solid #2D3134;
+    border-radius: 46px;
+    padding: 8px 24px;
+}
+
+.Italy_btn:hover {
+    background-color: #000;
+    color: #FDFEFF !important;
+}
+
+.Italy_btn {
+    border: 1px solid #2D3134;
+    border-radius: 46px;
+    padding: 8px 24px;
+}
+
 @media (max-width:1200px) {
     .discover_height {
         line-height: 63px;
@@ -86,6 +182,21 @@ button {
 
     .box_height {
         height: 160px;
+    }
+
+    .img_4 {
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+
+    .img_6 {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .img_5 {
+        grid-row: 4/5;
+        grid-column: 2/3;
     }
 }
 
@@ -119,10 +230,17 @@ button {
     .pt-4-400 {
         padding-top: 1.5rem !important;
     }
-    .p-4-400{
+
+    .p-4-400 {
         padding: 1.5rem !important;
     }
-    .t-center-400{
+
+    .t-center-400 {
         text-align: center !important;
+    }
+
+    .d_templete {
+        grid-gap: 10px;
+        grid-template-columns: auto;
     }
 }

@@ -99,7 +99,7 @@
     color: #2D3134;
 }
 
-.text_hover_white:hover{
+.text_hover_white:hover {
     color: #fff;
 }
 
@@ -160,9 +160,11 @@
     box-shadow: 0px 22px 34px -9px rgba(245, 56, 56, 0.35);
 
 }
-.rotate_90{
+
+.rotate_90 {
     transform: rotate(0deg);
 }
+
 .white_hover {
     transition: 0.6s ease-in-out;
 }
@@ -179,6 +181,21 @@
 
 }
 
+.icon svg path {
+    transition: 0.6s ease-in-out;
+   
+}
+
+.icon:hover svg path {
+    stroke: #F66F4D;
+    fill: #F66F4D;
+}
+
+.icon:hover svg circle {
+    stroke: #F66F4D !important;
+    
+
+}
 
 
 .input_div {
@@ -199,6 +216,10 @@
 
 .effect {
     transition: all 1s linear;
+}
+
+.max_w_141 {
+    max-width: 141px;
 }
 
 @media (max-width:600px) {

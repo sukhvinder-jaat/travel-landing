@@ -40,10 +40,6 @@
     transform: scale(1.2);
 }
 
-.nav_button {
-    transition: 0.6s ease-in-out;
-}
-
 .nav_button:hover {
     background: black;
     box-shadow: 0px 22px 34px -9px rgba(245, 56, 56, 0.35);
@@ -115,10 +111,6 @@
     padding: 12px 30px;
 }
 
-.Book_btn {
-    transition: 0.6s ease-in-out;
-}
-
 .Book_btn:hover {
     color: white !important;
     background: black;
@@ -175,6 +167,35 @@
 
 }
 
+.back_img {
+    background-image: url("/assets/img/png/back_img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+
+.input_div {
+    background: #FFFFFF;
+    border-radius: 12px;
+
+}
+
+.email_btn {
+    background: #FFFFFF;
+    outline: none !important;
+    border: none;
+}
+
+.Icon_img {
+    margin-bottom: -11px;
+}
+
+.effect {
+    transition: all 1s linear;
+}
+
 @media (max-width:600px) {
     .max_w_75_600 {
         width: 75% !important;
@@ -226,4 +247,10 @@
         z-index: 3;
     }
 
+}
+
+@media (min-width:576px) {
+    .min_576_w_480 {
+        width: 480px !important;
+    }
 }

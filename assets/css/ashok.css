@@ -80,7 +80,7 @@
 .slider_btn {
     height: 60px;
     width: 60px;
-    border: 2px solid #2D3134;
+    border: 2px solid #2D3134 !important;
     border-radius: 50%;
     background: var(--color-khakhi);
 }
@@ -136,7 +136,7 @@
 .attractive {
     border-radius: 250px;
     background-color: #EE8162;
-    }
+}
 
 .line {
     background: #FFD482;
@@ -150,8 +150,29 @@
     border-radius: 14px;
     max-width: 560px;
 }
-.max_w_465{
+
+.max_w_465 {
     max-width: 465px;
+}
+
+.Succes_btn {
+    transition: 0.6s ease-in-out;
+}
+
+.Succes_btn:hover {
+    color: white !important;
+    background: black;
+    box-shadow: 0px 22px 34px -9px rgba(245, 56, 56, 0.35);
+
+}
+
+.white_hover {
+    transition: 0.6s ease-in-out;
+}
+
+.Succes_btn:hover .white_hover {
+    color: white !important;
+
 }
 
 @media (max-width:600px) {

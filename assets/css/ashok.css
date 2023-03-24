@@ -183,7 +183,6 @@
 
 .icon svg path {
     transition: 0.6s ease-in-out;
-   
 }
 
 .icon:hover svg path {
@@ -193,8 +192,9 @@
 
 .icon:hover svg circle {
     stroke: #F66F4D !important;
-    
-
+}
+.icon:hover svg{
+    transform: translateY(-5px);
 }
 
 

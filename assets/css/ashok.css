@@ -223,7 +223,24 @@
     max-width: 141px;
 }
 
+.scroll_top_btn {
+    animation: float 3s linear infinite;
+}
 
+@keyframes float {
+    0% {
+        transform: translatey(0) scale(.998);
+    }
+
+    50% {
+        transform: translatey(-7px) scale(1.1023);
+
+    }
+
+    100% {
+        transform: translatey(0) scale(.998);
+    }
+}
 
 @media (min-width:1200px) {
     .ps_100 {
@@ -277,7 +294,7 @@
 }
 
 @media (min-width:768px) {
-    .w-md-100{
+    .w-md-100 {
         width: 100%;
     }
 }

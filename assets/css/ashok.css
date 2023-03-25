@@ -276,11 +276,17 @@
     }
 
 }
-@media (max-width:600px) {
-    .max_w_75_600 {
-        width: 75% !important;
+
+.max_w_75_600 {
+    width: 75% !important;
+}
+
+@media (min-width:768px) {
+    .w-md-100{
+        width: 100%;
     }
 }
+
 @media (min-width:576px) {
     .min_576_w_480 {
         width: 480px !important;

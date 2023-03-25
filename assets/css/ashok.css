@@ -225,6 +225,7 @@
 
 .scroll_top_btn {
     animation: float 3s linear infinite;
+    border-radius: 50%;
 }
 
 @keyframes float {

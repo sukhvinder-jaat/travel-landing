@@ -26,6 +26,7 @@
     transform: translateX(-50%);
 }
 
+
 .nav_button {
     border: 1.4px solid #F66F4D;
     border-radius: 27px;
@@ -38,6 +39,10 @@
 
 .logo:hover {
     transform: scale(1.2);
+}
+
+.nav_button {
+    transition: 1s ease-in-out;
 }
 
 .nav_button:hover {
@@ -193,7 +198,8 @@
 .icon:hover svg circle {
     stroke: #F66F4D !important;
 }
-.icon:hover svg{
+
+.icon:hover svg {
     transform: translateY(-5px);
 }
 
@@ -222,11 +228,7 @@
     max-width: 141px;
 }
 
-@media (max-width:600px) {
-    .max_w_75_600 {
-        width: 75% !important;
-    }
-}
+
 
 @media (min-width:1200px) {
     .ps_100 {
@@ -274,7 +276,11 @@
     }
 
 }
-
+@media (max-width:600px) {
+    .max_w_75_600 {
+        width: 75% !important;
+    }
+}
 @media (min-width:576px) {
     .min_576_w_480 {
         width: 480px !important;

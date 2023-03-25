@@ -180,6 +180,14 @@ button {
         line-height: 63px;
     }
 
+    .container_slider_lg {
+        max-width: 720px !important;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .box_height {
         height: 200px;
     }

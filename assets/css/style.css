@@ -253,3 +253,22 @@ button {
     }
 }
 
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F66F4D;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FAF8ED;
+}
+
+/* ::-webkit-scrollbar-button {
+    background: #F66F4D;
+    height: 15px;
+    border-radius: 50%;
+} */

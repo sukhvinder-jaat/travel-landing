@@ -17,12 +17,12 @@
     width: 0;
     background-color: #F66F4D;
     bottom: -5px;
-    left: 50%;
+    left: 15%;
     transition: 0.6s ease-in-out;
 }
 
 .hover_line:hover::after {
-    width: 100%;
+    width: 30%;
     transform: translateX(-50%);
 }
 
